@@ -45,7 +45,7 @@
   </NavUl>
 </Navbar>
 
-  <Carousel {images} let:Controls let:Indicators>
+  <Carousel {images} duration="3000" let:Controls let:Indicators>
     <Controls />
     <Indicators />
   </Carousel>
